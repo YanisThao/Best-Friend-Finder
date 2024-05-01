@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Best-Friend-Finder/static/css/main.b2f88860.css",
+    "main.js": "/Best-Friend-Finder/static/js/main.5a638866.js",
+    "static/media/Avaliable Dogs 2.jpg": "/Best-Friend-Finder/static/media/Avaliable Dogs 2.ef69b09c0ca10f29adb7.jpg",
+    "static/media/Landing3.png": "/Best-Friend-Finder/static/media/Landing3.d00cd9b6823a1021d93d.png",
+    "static/media/Available Cats 2.jpg": "/Best-Friend-Finder/static/media/Available Cats 2.fedf9f791b3634e19793.jpg",
+    "static/media/Logo.png": "/Best-Friend-Finder/static/media/Logo.872863dbff5b6bdb03ff.png",
+    "index.html": "/Best-Friend-Finder/index.html",
+    "main.b2f88860.css.map": "/Best-Friend-Finder/static/css/main.b2f88860.css.map",
+    "main.5a638866.js.map": "/Best-Friend-Finder/static/js/main.5a638866.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2f88860.css",
+    "static/js/main.5a638866.js"
+  ]
+}
