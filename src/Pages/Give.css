@@ -1,0 +1,67 @@
+.give-page {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.give-page h1 {
+  color: #407bff;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.give-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.give-form label {
+  font-size: 1rem;
+  color: #333;
+}
+
+.give-form input[type="text"],
+.give-form input[type="email"],
+.give-form input[type="address"],
+.give-form input[type="phone"],
+.give-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.give-form textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+.give-form .give-submit {
+  padding: 1rem 2rem;
+  background-color: #407bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.give-form .give-submit:hover {
+  background-color: #3057d5;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .give-page {
+    margin: 1rem;
+    padding: 0.5rem;
+  }
+
+  .give-form .give-submit {
+    padding: 0.5rem 1rem;
+  }
+}

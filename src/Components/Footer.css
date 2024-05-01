@@ -1,0 +1,50 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  /* Assuming #root is the ID of the root div where your React app is mounted */
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.content {
+  flex: 1; /* This will make the content expand to fill the space */
+
+}
+
+.footer {
+  width: 100%;
+  background-color: #333; /* Footer background color */
+  color: white; /* Text color */
+  text-align: center; /* Center the text */
+  padding: 1rem 0; /* Padding for the top and bottom */
+
+}
+
+
+.footer .social-links a {
+  color: white; /* Link color */
+  margin-right: 15px; /* Spacing between links */
+  /* Add additional styling as needed */
+}
+
+/* Styles for larger social icons if desired */
+.footer .social-links {
+  font-size: 1.5rem; /* Icon size */
+  /* Add additional styling as needed */
+}
+
+.social-links {
+  font-size: 1.5rem; /* Larger icons for social media links */
+  width: 190%;
+}
+
+@media (max-width: 768px) {
+  .footer .social-links {
+    font-size: 1rem;
+  }
+}

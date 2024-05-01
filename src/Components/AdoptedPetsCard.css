@@ -1,0 +1,45 @@
+.adopted-pet-card {
+  display: flex;
+  align-items: center;
+  background: #f9f9f9;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pet-photo {
+  flex-shrink: 0;
+  width: 150px; 
+  height: 150px;
+  background: white;
+  border-radius: 10px 0 0 10px; /* Rounded corners on the left */
+  overflow: hidden;
+}
+
+.pet-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Keeps the aspect ratio, might crop the image */
+}
+
+.pet-info {
+  padding: 1rem;
+  flex-grow: 1;
+}
+
+.pet-info h3 {
+  margin-top: 0;
+}
+
+.view-profile {
+  padding: 10px 20px;
+  background-color: #4caf50; /* Adjust color as needed */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.view-profile:hover {
+  background-color: #367c39; /* Darker shade for hover state */
+}

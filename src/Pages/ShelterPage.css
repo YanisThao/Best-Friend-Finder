@@ -1,0 +1,97 @@
+
+.donate-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.donate-page h1 {
+  color: #333;
+  text-align: center;
+}
+
+/* Styling for the search results container */
+.shelter-results {
+  margin-top: 20px;
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.shelter-results p {
+  margin: 0;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  color: #666;
+}
+
+.shelter-results p:last-child {
+  border-bottom: none;
+}
+
+/* Styling for individual shelter blocks */
+.shelter-results div {
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.shelter-results div:hover {
+  background-color: #e9e9e9;
+}
+
+/* Styling for loading and error messages */
+.loading,
+.error {
+  color: #cc0000;
+  text-align: center;
+  font-size: 16px;
+  padding: 20px;
+}
+
+/* Enhanced visibility for search section */
+.search-section input[type="search"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-section input[type="search"]:focus {
+  border-color: #88aaff;
+}
+
+/* Button styles for actions */
+button {
+  background-color: #5c67f2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #4a54e1;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .donate-page {
+    padding: 10px;
+  }
+
+  .search-section input[type="search"],
+  button {
+    width: 100%;
+  }
+}

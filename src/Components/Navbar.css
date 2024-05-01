@@ -1,0 +1,186 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Include padding and borders in the element's total width and height */
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+  font-family: "Bree Serif", serif;
+}
+
+.custom-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff; /* White background */
+  padding: 0.5rem 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: "Nunito", sans-serif; 
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #407bff;
+}
+
+.navbar-logo img {
+  height: 80px; /* Adjust the size of the logo */
+  width: auto; /* Keep the aspect ratio */
+  margin-right: 20px;
+}
+
+.navbar-logo .site-title {
+  font-size: 2rem; /* Increase the font size */
+  font-weight: bold;
+}
+
+/* Nav item styles */
+.nav-item {
+  color: #407bff;
+  text-decoration: none;
+  margin: 0 20px;
+  padding: 10px 0; /* Give some padding for a larger clickable area */
+  font-size: 1.2rem; /* Make the nav items bigger */
+}
+
+/* Search input styles */
+.search-section input[type="search"] {
+  padding: 10px;
+  margin-left: 20px; /* Give some space from the nav items */
+  font-size: 1rem; /* Adjust the font size as needed */
+  border: none;
+  border-radius: 5px; /* Rounded corners for the input */
+}
+
+
+.nav-menu-section ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-menu-section ul li a {
+  color: #407bff;
+  text-decoration: none;
+  padding: 10px 20px; /* Add some padding for a larger clickable area */
+  transition: background-color 0.3s ease;
+}
+
+.nav-menu-section ul li a:hover {
+  background-color: #3057d5; /* Slightly darker blue on hover */
+}
+
+/* Bottom navbar styles */
+.bottom-navbar {
+  background-color: #333;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  left: 0; /* Add left to ensure it sticks to the left edge */
+  width: 100%;
+  padding: 15px 2rem; /* Increase padding to make the bar taller */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  color: #407bff; /* Match the color of nav items */
+  padding: 16px; /* Consistent padding with other nav items */
+  font-size: 16px; /* Consistent font size with other nav items */
+  background: none; /* No background */
+  border: none; /* No border */
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.nav-item,
+.dropbtn {
+  text-decoration: none;
+  margin: 0 15px; /* Adjust spacing to your liking */
+  cursor: pointer;
+}
+/* Assuming 'auth-links' contains your login, signup, and logout links */
+.auth-links {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Adjust the gap as necessary */
+}
+
+/* Style the logout button */
+.logout-btn {
+  padding: 10px 20px;
+  background-color: #407bff; /* Red color for logout to differentiate it from login/signup */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none; /* Remove underline from link */
+  font-weight: bold;
+  transition: background-color 0.2s ease-in-out;
+}
+
+/* Hover effect for logout button */
+.logout-btn:hover {
+  background-color: #407bff;
+}
+
+/* Hide text-decoration on focus for accessibility */
+.logout-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(255, 77, 77, 0.5); /* Red glow effect */
+}
+
+/* If you have a logout icon, you might want to style it too */
+.logout-icon {
+  margin-right: 5px; /* Space between icon and text */
+}
+
+@media (max-width: 768px) {
+  .social-links {
+    font-size: 1rem;
+  }
+}
