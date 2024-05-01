@@ -1,3 +1,20 @@
+### Best Friend Finder
+Best Friend Finder is an application that connects potential pet owners with adoptable pets. Using the Petfinder API, it allows users to search for pets based on specific criteria, helping them find the perfect companion from various shelters and rescues.
+
+### API Documentation
+The application utilizes the Petfinder API, which provides extensive information on adoptable pets and adoption organizations. Detailed instructions on how to authenticate, make requests, and handle responses from the API can be found in the linked documentation.
+
+### Features
+Pet Search: Users can search for pets by type, breed, size, age, and location.
+Detailed Pet Profiles: Each pet profile provides comprehensive details including photos, health status, and shelter information.
+Shelter Information: Access detailed data about various shelters and rescues.
+Data Utilization
+Data Format
+The API returns data in JSON format, which is integrated directly into the application.
+### Key Endpoints
+Animals Endpoint: Fetches detailed information about pets, which is used to populate pet profiles and search results.
+Organizations Endpoint: Provides information about shelters and rescues, enhancing pet profiles with additional context about pet locations.
+
 ## Petfinder API
 
 The Petfinder API provides access to an extensive database of information about various types of pets available for adoption. It is a robust tool for accessing details about pet breeds, adoption organizations, and specific adoptable pets. This API is crucial for developing applications that intend to help users find pets to adopt by providing detailed, searchable pet information.
