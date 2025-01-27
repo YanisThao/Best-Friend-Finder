@@ -1,4 +1,4 @@
-### Website: https://frootiesprog.github.io/Best-Friend-Finder/
+### Website: https://YanisThao.github.io/Best-Friend-Finder/
 
 ### Best Friend Finder
 Best Friend Finder is an application that connects potential pet owners with adoptable pets. Using the Petfinder API, it allows users to search for pets based on specific criteria, helping them find the perfect companion from various shelters and rescues.
